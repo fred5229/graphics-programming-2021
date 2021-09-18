@@ -1,0 +1,436 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common/third-party/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common/third-party/glfw",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "common/third-party/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "common/third-party/glfw/src",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "common/third-party/glad",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common/third-party/glad",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "common/third-party/imgui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common/third-party/imgui",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "common/third-party/assimp",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common/third-party/assimp",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "exercises",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "exercises"
+				},
+				{
+					"build" : "exercises/exercise_1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise_1",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "exercises/exercise_1_solutions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise_1_solutions",
+					"targetIndexes" : 
+					[
+						3,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "exercises/exercise_2",
+					"childIndexes" : 
+					[
+						10,
+						11
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise_2"
+				},
+				{
+					"build" : "exercises/exercise_2/exercise_2_1",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise_2/exercise_2_1",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "exercises/exercise_2/exercise_2_2_to_2_7",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "exercises/exercise_2/exercise_2_2_to_2_7",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "assignments",
+					"childIndexes" : 
+					[
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "assignments"
+				},
+				{
+					"build" : "assignments/voronoi",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 12,
+					"projectIndex" : 0,
+					"source" : "assignments/voronoi",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "ITU-graphics-programming",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 13,
+					"id" : "assignment_voronoi::@818486c11e804bea4ba9",
+					"jsonFile" : "target-assignment_voronoi-Debug-1a4b240ca123eac1a60b.json",
+					"name" : "assignment_voronoi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "assimp::@e4efb69a17b32da1db8a",
+					"jsonFile" : "target-assimp-Debug-c0944b9c6f20c83b49e9.json",
+					"name" : "assimp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_1_and_1_2::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_1_and_1_2-Debug-7f8a3371157bbd32eddd.json",
+					"name" : "exercise_1_1_and_1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "exercise_1_1_and_1_2_sol::@d12301e18ae8995bf75f",
+					"jsonFile" : "target-exercise_1_1_and_1_2_sol-Debug-99a12e19fb7e9db5e3b2.json",
+					"name" : "exercise_1_1_and_1_2_sol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_3::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_3-Debug-e3f42f8a82259e2623d1.json",
+					"name" : "exercise_1_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "exercise_1_3_sol::@d12301e18ae8995bf75f",
+					"jsonFile" : "target-exercise_1_3_sol-Debug-de462f737d2467b98916.json",
+					"name" : "exercise_1_3_sol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_4::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_4-Debug-d54ee9a18efe25fc60da.json",
+					"name" : "exercise_1_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "exercise_1_4_sol::@d12301e18ae8995bf75f",
+					"jsonFile" : "target-exercise_1_4_sol-Debug-7c7bb2e53d187ef7a6c8.json",
+					"name" : "exercise_1_4_sol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_5::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_5-Debug-3cdac059362283ba48b4.json",
+					"name" : "exercise_1_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_6::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_6-Debug-c17f347dce25da39df50.json",
+					"name" : "exercise_1_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_7::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_7-Debug-2512097da654c29c3215.json",
+					"name" : "exercise_1_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_8::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_8-Debug-918dd450eea0f1e96522.json",
+					"name" : "exercise_1_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exercise_1_9::@622ae952e6f6f6f5748e",
+					"jsonFile" : "target-exercise_1_9-Debug-04ec18ed9ccb00a91d4a.json",
+					"name" : "exercise_1_9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "exercise_2_1::@ff1107a113ffdb9df789",
+					"jsonFile" : "target-exercise_2_1-Debug-40571a24d4eec7be26e1.json",
+					"name" : "exercise_2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "exercise_2_2_to_2_7::@20d4dbaf09de5a69f9d8",
+					"jsonFile" : "target-exercise_2_2_to_2_7-Debug-730a9e61bb39d0504683.json",
+					"name" : "exercise_2_2_to_2_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glad::@0e9427c8fa045f976263",
+					"jsonFile" : "target-glad-Debug-f2d694ff8b7eae66bed0.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@c776322c4f291981a324",
+					"jsonFile" : "target-glfw-Debug-3a618034c2792bed4c93.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "imgui::@c6c90c25753c6d6deddc",
+					"jsonFile" : "target-imgui-Debug-68fd39ce8b4e922151f2.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@067219e4d72d99ef81b0",
+					"jsonFile" : "target-uninstall-Debug-af2fcd3c0f3189e07e33.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug",
+		"source" : "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
