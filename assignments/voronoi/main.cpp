@@ -218,6 +218,10 @@ void button_input_callback(GLFWwindow* window, int button, int action, int mods)
         float r = (float)rand() / RAND_MAX;
         float g = (float)rand() / RAND_MAX;
         float b = (float)rand() / RAND_MAX;
+
+        SceneObject so = instantiateCone(r, b, g, xNdc, yNdc);
+
+        sceneObjects.push_back(so);
     }
 }
 
