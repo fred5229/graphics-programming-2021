@@ -115,17 +115,72 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
     SceneObject sceneObject{};
 
     // you will need to store offsetX, offsetY, r, g and b in the object.
-    // CODE HERE
+    sceneObject.r = r;
+    sceneObject.g = g;
+    sceneObject.b = b;
+    sceneObject.x = offsetX;
+    sceneObject.y = offsetY;
     // Build the geometry into an std::vector<float> or float array.
-    // CODE HERE
+    std::vector<float> vertexData;
+    int triangleCount = 16;
+    float PI = 3.14159265;
+    float angleInterval = (2 * PI) / (float)triangleCount;
+    float dl = sqrt(2 * 2 + 2 * 2); //Length of diagonal window
+    for (int i = 0; i < triangleCount; i++) {
+        // vertex 1
+        vertexData.push_back(offsetX); //prevouisly both 0. Maybe change this later
+        vertexData.push_back(offsetY);
+        vertexData.push_back(-1.0f); //z index of center close to camera
+        // color 1
+        vertexData.push_back(r);
+        vertexData.push_back(g);
+        vertexData.push_back(b);
+        // vertex 2
+        // current angle
+        float angle = i * angleInterval;
+        vertexData.push_back((cos(angle) / 2 + offsetX) * dl);
+        vertexData.push_back((sin(angle) / 2 + offsetY) * dl);
+        vertexData.push_back(1); //z index away from camera
+        // color 2
+        vertexData.push_back(r);
+        vertexData.push_back(g);
+        vertexData.push_back(b);
+        // vertex 3
+        // advance one angle interval to find the last vertex of the triangle
+        angle += angleInterval;
+        vertexData.push_back((cos(angle) / 2 + offsetX) * dl);
+        vertexData.push_back((sin(angle) / 2 + offsetY) * dl);
+        vertexData.push_back(1); //z index away from camera
+        // color 3
+        vertexData.push_back(r);
+        vertexData.push_back(g);
+        vertexData.push_back(b);
+    }
     // Store the number of vertices in the mesh in the scene object.
-    // CODE HERE
+    sceneObject.vertexCount = vertexData.size();
     // Declare and generate a VAO and VBO (and an EBO if you decide the work with indices).
-    // CODE HERE
+    unsigned int VBO, VAO;
     // Bind and set the VAO and VBO (and optionally a EBO) in the correct order.
-    // CODE HERE
+    glGenBuffers(1, &VBO); // create the VBO on OpenGL and get a handle to it
+    glBindBuffer(GL_ARRAY_BUFFER, VBO); // bind the VBO
+    glBufferData(GL_ARRAY_BUFFER, vertexData.size() * sizeof(GLfloat), &vertexData[0], GL_STATIC_DRAW); // set the content of the VBO (type, size, pointer to start, and how it is used)
+    glGenVertexArrays(1, &VAO); // create a vertex array object (VAO) on OpenGL and save a handle to it
+    glBindVertexArray(VAO); // bind vertex array object
     // Set the position attribute pointers in the shader.
-    // CODE HERE
+    int posSize = 3;
+    int colorSize = 3;
+    int posAttributeLocation = glGetAttribLocation(shaderPrograms[0].ID, "pos");
+
+    glEnableVertexAttribArray(posAttributeLocation);
+    glVertexAttribPointer(posAttributeLocation, posSize, GL_FLOAT, GL_FALSE,
+                          (posSize + colorSize) * (int) sizeof(float), 0);
+
+
+    int colorAttributeLocation = glGetAttribLocation(shaderProgram, "aColor");
+
+    glEnableVertexAttribArray(colorAttributeLocation);
+    glVertexAttribPointer(colorAttributeLocation, colorSize, GL_FLOAT, GL_FALSE,
+                          (posSize + colorSize) * (int) sizeof(float), (void*) (posSize * sizeof(float)));
     // Store the VAO handle in the scene object.
     // CODE HERE
 

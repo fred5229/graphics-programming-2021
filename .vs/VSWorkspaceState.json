@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assignments",
+    "\\assignments\\out\\build",
+    "\\assignments\\voronoi",
+    "\\assignments\\voronoi\\shaders",
     "\\exercises",
-    "\\exercises\\exercise_1",
-    "\\exercises\\exercise_1\\exercise_1_3",
     "\\exercises\\exercise_1_solutions",
-    "\\exercises\\exercise_1_solutions\\exercise_1_3_sol",
-    "\\exercises\\exercise_2",
-    "\\exercises\\exercise_2\\exercise_2_1\\shaders",
-    "\\exercises\\exercise_2\\exercise_2_2_to_2_7",
-    "\\exercises\\exercise_2\\exercise_2_2_to_2_7\\shaders"
+    "\\exercises\\exercise_1_solutions\\exercise_1_7_sol",
+    "\\exercises\\exercise_1_solutions\\exercise_1_8_sol",
+    "\\exercises\\exercise_2"
   ],
-  "SelectedNode": "\\exercises\\exercise_1\\exercise_1_3\\main.cpp",
+  "SelectedNode": "\\assignments\\voronoi\\shaders\\shader.vert",
   "PreviewInSolutionExplorer": false
 }

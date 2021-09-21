@@ -1818,55 +1818,6 @@ build exercises\exercise_1\install: phony exercises\exercise_1\CMakeFiles\instal
 # C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises/CMakeLists.txt
 # =============================================================================
 
-
-#############################################
-# Utility command for rebuild_cache
-
-build exercises\exercise_1_solutions\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\frede\Documents\UNI\GP\graphics-programming-2021 -BC:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build exercises\exercise_1_solutions\rebuild_cache: phony exercises\exercise_1_solutions\CMakeFiles\rebuild_cache.util
-
-# =============================================================================
-# Object build statements for EXECUTABLE target exercise_1_4_sol
-
-
-#############################################
-# Order-only phony target for exercise_1_4_sol
-
-build cmake_object_order_depends_target_exercise_1_4_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
-
-build exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol\main.cpp.obj: CXX_COMPILER__exercise_1_4_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_4_sol\main.cpp || cmake_object_order_depends_target_exercise_1_4_sol
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
-  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
-  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir
-  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol
-  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\
-  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_4_sol.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target exercise_1_4_sol
-
-
-#############################################
-# Link the executable exercises\exercise_1_solutions\exercise_1_4_sol.exe
-
-build exercises\exercise_1_solutions\exercise_1_4_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_4_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\
-  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_4_sol.exe
-  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_4_sol.lib
-  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_4_sol.pdb
-
 # =============================================================================
 # Object build statements for EXECUTABLE target exercise_1_1_and_1_2_sol
 
@@ -1904,29 +1855,42 @@ build exercises\exercise_1_solutions\exercise_1_1_and_1_2_sol.exe: CXX_EXECUTABL
   TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_1_and_1_2_sol.lib
   TARGET_PDB = exercises\exercise_1_solutions\exercise_1_1_and_1_2_sol.pdb
 
-
-#############################################
-# Utility command for install/local
-
-build exercises\exercise_1_solutions\CMakeFiles\install\local.util: CUSTOM_COMMAND exercises\exercise_1_solutions\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build exercises\exercise_1_solutions\install\local: phony exercises\exercise_1_solutions\CMakeFiles\install\local.util
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_1_4_sol
 
 
 #############################################
-# Utility command for install
+# Order-only phony target for exercise_1_4_sol
 
-build exercises\exercise_1_solutions\CMakeFiles\install.util: CUSTOM_COMMAND exercises\exercise_1_solutions\all
-  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
+build cmake_object_order_depends_target_exercise_1_4_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
 
-build exercises\exercise_1_solutions\install: phony exercises\exercise_1_solutions\CMakeFiles\install.util
+build exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol\main.cpp.obj: CXX_COMPILER__exercise_1_4_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_4_sol\main.cpp || cmake_object_order_depends_target_exercise_1_4_sol
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir
+  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_4_sol.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_1_4_sol
+
+
+#############################################
+# Link the executable exercises\exercise_1_solutions\exercise_1_4_sol.exe
+
+build exercises\exercise_1_solutions\exercise_1_4_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_4_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\exercise_1_4_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_4_sol.dir\
+  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_4_sol.exe
+  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_4_sol.lib
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_4_sol.pdb
 
 
 #############################################
@@ -1976,11 +1940,195 @@ build exercises\exercise_1_solutions\exercise_1_3_sol.exe: CXX_EXECUTABLE_LINKER
   TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_3_sol.lib
   TARGET_PDB = exercises\exercise_1_solutions\exercise_1_3_sol.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_1_5_sol
+
+
+#############################################
+# Order-only phony target for exercise_1_5_sol
+
+build cmake_object_order_depends_target_exercise_1_5_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir\exercise_1_5_sol\main.cpp.obj: CXX_COMPILER__exercise_1_5_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_5_sol\main.cpp || cmake_object_order_depends_target_exercise_1_5_sol
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir
+  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir\exercise_1_5_sol
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir\
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_5_sol.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_1_5_sol
+
+
+#############################################
+# Link the executable exercises\exercise_1_solutions\exercise_1_5_sol.exe
+
+build exercises\exercise_1_solutions\exercise_1_5_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_5_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir\exercise_1_5_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_5_sol.dir\
+  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_5_sol.exe
+  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_5_sol.lib
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_5_sol.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_1_6_sol
+
+
+#############################################
+# Order-only phony target for exercise_1_6_sol
+
+build cmake_object_order_depends_target_exercise_1_6_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir\exercise_1_6_sol\main.cpp.obj: CXX_COMPILER__exercise_1_6_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_6_sol\main.cpp || cmake_object_order_depends_target_exercise_1_6_sol
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir
+  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir\exercise_1_6_sol
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir\
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_6_sol.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_1_6_sol
+
+
+#############################################
+# Link the executable exercises\exercise_1_solutions\exercise_1_6_sol.exe
+
+build exercises\exercise_1_solutions\exercise_1_6_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_6_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir\exercise_1_6_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_6_sol.dir\
+  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_6_sol.exe
+  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_6_sol.lib
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_6_sol.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_1_7_sol
+
+
+#############################################
+# Order-only phony target for exercise_1_7_sol
+
+build cmake_object_order_depends_target_exercise_1_7_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir\exercise_1_7_sol\main.cpp.obj: CXX_COMPILER__exercise_1_7_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_7_sol\main.cpp || cmake_object_order_depends_target_exercise_1_7_sol
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir
+  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir\exercise_1_7_sol
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir\
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_7_sol.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_1_7_sol
+
+
+#############################################
+# Link the executable exercises\exercise_1_solutions\exercise_1_7_sol.exe
+
+build exercises\exercise_1_solutions\exercise_1_7_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_7_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir\exercise_1_7_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_7_sol.dir\
+  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_7_sol.exe
+  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_7_sol.lib
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_7_sol.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_1_8_sol
+
+
+#############################################
+# Order-only phony target for exercise_1_8_sol
+
+build cmake_object_order_depends_target_exercise_1_8_sol: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir\exercise_1_8_sol\main.cpp.obj: CXX_COMPILER__exercise_1_8_sol_Debug ..\..\..\exercises\exercise_1_solutions\exercise_1_8_sol\main.cpp || cmake_object_order_depends_target_exercise_1_8_sol
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir
+  OBJECT_FILE_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir\exercise_1_8_sol
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir\
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_8_sol.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_1_8_sol
+
+
+#############################################
+# Link the executable exercises\exercise_1_solutions\exercise_1_8_sol.exe
+
+build exercises\exercise_1_solutions\exercise_1_8_sol.exe: CXX_EXECUTABLE_LINKER__exercise_1_8_sol_Debug exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir\exercise_1_8_sol\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_1_solutions\CMakeFiles\exercise_1_8_sol.dir\
+  TARGET_FILE = exercises\exercise_1_solutions\exercise_1_8_sol.exe
+  TARGET_IMPLIB = exercises\exercise_1_solutions\exercise_1_8_sol.lib
+  TARGET_PDB = exercises\exercise_1_solutions\exercise_1_8_sol.pdb
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exercises\exercise_1_solutions\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\frede\Documents\UNI\GP\graphics-programming-2021 -BC:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exercises\exercise_1_solutions\rebuild_cache: phony exercises\exercise_1_solutions\CMakeFiles\rebuild_cache.util
+
 
 #############################################
 # Utility command for list_install_components
 
 build exercises\exercise_1_solutions\list_install_components: phony
+
+
+#############################################
+# Utility command for install/local
+
+build exercises\exercise_1_solutions\CMakeFiles\install\local.util: CUSTOM_COMMAND exercises\exercise_1_solutions\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build exercises\exercise_1_solutions\install\local: phony exercises\exercise_1_solutions\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build exercises\exercise_1_solutions\CMakeFiles\install.util: CUSTOM_COMMAND exercises\exercise_1_solutions\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_1_solutions && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build exercises\exercise_1_solutions\install: phony exercises\exercise_1_solutions\CMakeFiles\install.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2232,6 +2380,167 @@ build exercises\exercise_2\exercise_2_2_to_2_7\rebuild_cache: phony exercises\ex
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for install/local
+
+build exercises\exercise_3\CMakeFiles\install\local.util: CUSTOM_COMMAND exercises\exercise_3\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\install\local: phony exercises\exercise_3\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build exercises\exercise_3\CMakeFiles\install.util: CUSTOM_COMMAND exercises\exercise_3\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\install: phony exercises\exercise_3\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build exercises\exercise_3\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exercises\exercise_3\edit_cache: phony exercises\exercise_3\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exercises\exercise_3\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\frede\Documents\UNI\GP\graphics-programming-2021 -BC:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\rebuild_cache: phony exercises\exercise_3\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build exercises\exercise_3\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises/exercise_3/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build exercises\exercise_3\exercise_3\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\frede\Documents\UNI\GP\graphics-programming-2021 -BC:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\exercise_3\rebuild_cache: phony exercises\exercise_3\exercise_3\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise_3
+
+
+#############################################
+# Order-only phony target for exercise_3
+
+build cmake_object_order_depends_target_exercise_3: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\glmutils.cpp.obj: CXX_COMPILER__exercise_3_Debug ..\..\..\exercises\exercise_3\exercise_3\glmutils.cpp || cmake_object_order_depends_target_exercise_3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp -I..\..\..\exercises\exercise_3\exercise_3
+  OBJECT_DIR = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir
+  OBJECT_FILE_DIR = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir
+  TARGET_COMPILE_PDB = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\
+  TARGET_PDB = exercises\exercise_3\exercise_3\exercise_3.pdb
+
+build exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\main.cpp.obj: CXX_COMPILER__exercise_3_Debug ..\..\..\exercises\exercise_3\exercise_3\main.cpp || cmake_object_order_depends_target_exercise_3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++14
+  INCLUDES = -I..\..\..\include -I..\..\..\common\third-party\glad\include -I..\..\..\common\third-party\glfw\include -I..\..\..\common\third-party\imgui\include -I..\..\..\common\third-party\glm -I..\..\..\common\third-party\STBImage -I..\..\..\common\third-party\assimp\include -I..\..\..\common\third-party\assimp -I..\..\..\exercises\exercise_3\exercise_3
+  OBJECT_DIR = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir
+  OBJECT_FILE_DIR = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir
+  TARGET_COMPILE_PDB = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\
+  TARGET_PDB = exercises\exercise_3\exercise_3\exercise_3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise_3
+
+
+#############################################
+# Link the executable exercises\exercise_3\exercise_3\exercise_3.exe
+
+build exercises\exercise_3\exercise_3\exercise_3.exe: CXX_EXECUTABLE_LINKER__exercise_3_Debug exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\glmutils.cpp.obj exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\main.cpp.obj | common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib || common\third-party\glad\glad.lib common\third-party\glfw\src\glfw3.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = common\third-party\glad\glad.lib  common\third-party\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises/exercise_3/exercise_3/shaders C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/shaders"
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = exercises\exercise_3\exercise_3\CMakeFiles\exercise_3.dir\
+  TARGET_FILE = exercises\exercise_3\exercise_3\exercise_3.exe
+  TARGET_IMPLIB = exercises\exercise_3\exercise_3\exercise_3.lib
+  TARGET_PDB = exercises\exercise_3\exercise_3\exercise_3.pdb
+
+
+#############################################
+# Utility command for install/local
+
+build exercises\exercise_3\exercise_3\CMakeFiles\install\local.util: CUSTOM_COMMAND exercises\exercise_3\exercise_3\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\exercise_3\install\local: phony exercises\exercise_3\exercise_3\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build exercises\exercise_3\exercise_3\CMakeFiles\install.util: CUSTOM_COMMAND exercises\exercise_3\exercise_3\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build exercises\exercise_3\exercise_3\install: phony exercises\exercise_3\exercise_3\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build exercises\exercise_3\exercise_3\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\exercises\exercise_3\exercise_3 && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build exercises\exercise_3\exercise_3\edit_cache: phony exercises\exercise_3\exercise_3\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build exercises\exercise_3\exercise_3\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/CMakeLists.txt
 # =============================================================================
 
@@ -2287,6 +2596,64 @@ build assignments\rebuild_cache: phony assignments\CMakeFiles\rebuild_cache.util
 # Utility command for list_install_components
 
 build assignments\list_install_components: phony
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/assignments/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for install/local
+
+build assignments\out\CMakeFiles\install\local.util: CUSTOM_COMMAND assignments\out\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\assignments\out && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build assignments\out\install\local: phony assignments\out\CMakeFiles\install\local.util
+
+
+#############################################
+# Utility command for install
+
+build assignments\out\CMakeFiles\install.util: CUSTOM_COMMAND assignments\out\all
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\assignments\out && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build assignments\out\install: phony assignments\out\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build assignments\out\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\assignments\out && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build assignments\out\edit_cache: phony assignments\out\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build assignments\out\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug\assignments\out && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\frede\Documents\UNI\GP\graphics-programming-2021 -BC:\Users\frede\Documents\UNI\GP\graphics-programming-2021\out\build\x64-Debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build assignments\out\rebuild_cache: phony assignments\out\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build assignments\out\list_install_components: phony
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -2422,17 +2789,33 @@ build exercise_1_5: phony exercises\exercise_1\exercise_1_5.exe
 
 build exercise_1_5.exe: phony exercises\exercise_1\exercise_1_5.exe
 
+build exercise_1_5_sol: phony exercises\exercise_1_solutions\exercise_1_5_sol.exe
+
+build exercise_1_5_sol.exe: phony exercises\exercise_1_solutions\exercise_1_5_sol.exe
+
 build exercise_1_6: phony exercises\exercise_1\exercise_1_6.exe
 
 build exercise_1_6.exe: phony exercises\exercise_1\exercise_1_6.exe
+
+build exercise_1_6_sol: phony exercises\exercise_1_solutions\exercise_1_6_sol.exe
+
+build exercise_1_6_sol.exe: phony exercises\exercise_1_solutions\exercise_1_6_sol.exe
 
 build exercise_1_7: phony exercises\exercise_1\exercise_1_7.exe
 
 build exercise_1_7.exe: phony exercises\exercise_1\exercise_1_7.exe
 
+build exercise_1_7_sol: phony exercises\exercise_1_solutions\exercise_1_7_sol.exe
+
+build exercise_1_7_sol.exe: phony exercises\exercise_1_solutions\exercise_1_7_sol.exe
+
 build exercise_1_8: phony exercises\exercise_1\exercise_1_8.exe
 
 build exercise_1_8.exe: phony exercises\exercise_1\exercise_1_8.exe
+
+build exercise_1_8_sol: phony exercises\exercise_1_solutions\exercise_1_8_sol.exe
+
+build exercise_1_8_sol.exe: phony exercises\exercise_1_solutions\exercise_1_8_sol.exe
 
 build exercise_1_9: phony exercises\exercise_1\exercise_1_9.exe
 
@@ -2445,6 +2828,10 @@ build exercise_2_1.exe: phony exercises\exercise_2\exercise_2_1\exercise_2_1.exe
 build exercise_2_2_to_2_7: phony exercises\exercise_2\exercise_2_2_to_2_7\exercise_2_2_to_2_7.exe
 
 build exercise_2_2_to_2_7.exe: phony exercises\exercise_2\exercise_2_2_to_2_7\exercise_2_2_to_2_7.exe
+
+build exercise_3: phony exercises\exercise_3\exercise_3\exercise_3.exe
+
+build exercise_3.exe: phony exercises\exercise_3\exercise_3\exercise_3.exe
 
 build glad: phony common\third-party\glad\glad.lib
 
@@ -2475,7 +2862,14 @@ build all: phony common\third-party\glfw\all common\third-party\glad\all common\
 #############################################
 # Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments
 
-build assignments\all: phony assignments\voronoi\all
+build assignments\all: phony assignments\out\all assignments\voronoi\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/out
+
+build assignments\out\all: phony
 
 # =============================================================================
 
@@ -2524,7 +2918,7 @@ build common\third-party\imgui\all: phony common\third-party\imgui\imgui.lib
 #############################################
 # Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises
 
-build exercises\all: phony exercises\exercise_1\all exercises\exercise_1_solutions\all exercises\exercise_2\all
+build exercises\all: phony exercises\exercise_1\all exercises\exercise_1_solutions\all exercises\exercise_2\all exercises\exercise_3\all
 
 # =============================================================================
 
@@ -2538,7 +2932,7 @@ build exercises\exercise_1\all: phony exercises\exercise_1\exercise_1_1_and_1_2.
 #############################################
 # Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions
 
-build exercises\exercise_1_solutions\all: phony exercises\exercise_1_solutions\exercise_1_4_sol.exe exercises\exercise_1_solutions\exercise_1_1_and_1_2_sol.exe exercises\exercise_1_solutions\exercise_1_3_sol.exe
+build exercises\exercise_1_solutions\all: phony exercises\exercise_1_solutions\exercise_1_1_and_1_2_sol.exe exercises\exercise_1_solutions\exercise_1_4_sol.exe exercises\exercise_1_solutions\exercise_1_3_sol.exe exercises\exercise_1_solutions\exercise_1_5_sol.exe exercises\exercise_1_solutions\exercise_1_6_sol.exe exercises\exercise_1_solutions\exercise_1_7_sol.exe exercises\exercise_1_solutions\exercise_1_8_sol.exe
 
 # =============================================================================
 
@@ -2562,20 +2956,34 @@ build exercises\exercise_2\exercise_2_1\all: phony exercises\exercise_2\exercise
 build exercises\exercise_2\exercise_2_2_to_2_7\all: phony exercises\exercise_2\exercise_2_2_to_2_7\exercise_2_2_to_2_7.exe
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3
+
+build exercises\exercise_3\all: phony exercises\exercise_3\exercise_3\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3
+
+build exercises\exercise_3\exercise_3\all: phony exercises\exercise_3\exercise_3\exercise_3.exe
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\assignments\CMakeLists.txt ..\..\..\assignments\voronoi\CMakeLists.txt ..\..\..\common\third-party\assimp\CMakeLists.txt ..\..\..\common\third-party\glad\CMakeLists.txt ..\..\..\common\third-party\glfw\CMakeLists.txt ..\..\..\common\third-party\glfw\cmake_uninstall.cmake.in ..\..\..\common\third-party\glfw\src\CMakeLists.txt ..\..\..\common\third-party\glfw\src\glfw3.pc.in ..\..\..\common\third-party\glfw\src\glfw3Config.cmake.in ..\..\..\common\third-party\glfw\src\glfw_config.h.in ..\..\..\common\third-party\imgui\CMakeLists.txt ..\..\..\exercises\CMakeLists.txt ..\..\..\exercises\exercise_1\CMakeLists.txt ..\..\..\exercises\exercise_1_solutions\CMakeLists.txt ..\..\..\exercises\exercise_2\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_1\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_2_to_2_7\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystem.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.c.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindDoxygen.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\assignments\CMakeLists.txt ..\..\..\assignments\out\CMakeLists.txt ..\..\..\assignments\voronoi\CMakeLists.txt ..\..\..\common\third-party\assimp\CMakeLists.txt ..\..\..\common\third-party\glad\CMakeLists.txt ..\..\..\common\third-party\glfw\CMakeLists.txt ..\..\..\common\third-party\glfw\cmake_uninstall.cmake.in ..\..\..\common\third-party\glfw\src\CMakeLists.txt ..\..\..\common\third-party\glfw\src\glfw3.pc.in ..\..\..\common\third-party\glfw\src\glfw3Config.cmake.in ..\..\..\common\third-party\glfw\src\glfw_config.h.in ..\..\..\common\third-party\imgui\CMakeLists.txt ..\..\..\exercises\CMakeLists.txt ..\..\..\exercises\exercise_1\CMakeLists.txt ..\..\..\exercises\exercise_1_solutions\CMakeLists.txt ..\..\..\exercises\exercise_2\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_1\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_2_to_2_7\CMakeLists.txt ..\..\..\exercises\exercise_3\CMakeLists.txt ..\..\..\exercises\exercise_3\exercise_3\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindDoxygen.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt ..\..\..\assignments\CMakeLists.txt ..\..\..\assignments\voronoi\CMakeLists.txt ..\..\..\common\third-party\assimp\CMakeLists.txt ..\..\..\common\third-party\glad\CMakeLists.txt ..\..\..\common\third-party\glfw\CMakeLists.txt ..\..\..\common\third-party\glfw\cmake_uninstall.cmake.in ..\..\..\common\third-party\glfw\src\CMakeLists.txt ..\..\..\common\third-party\glfw\src\glfw3.pc.in ..\..\..\common\third-party\glfw\src\glfw3Config.cmake.in ..\..\..\common\third-party\glfw\src\glfw_config.h.in ..\..\..\common\third-party\imgui\CMakeLists.txt ..\..\..\exercises\CMakeLists.txt ..\..\..\exercises\exercise_1\CMakeLists.txt ..\..\..\exercises\exercise_1_solutions\CMakeLists.txt ..\..\..\exercises\exercise_2\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_1\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_2_to_2_7\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompileFeatures.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystem.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.c.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindDoxygen.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake: phony
+build ..\..\..\CMakeLists.txt ..\..\..\assignments\CMakeLists.txt ..\..\..\assignments\out\CMakeLists.txt ..\..\..\assignments\voronoi\CMakeLists.txt ..\..\..\common\third-party\assimp\CMakeLists.txt ..\..\..\common\third-party\glad\CMakeLists.txt ..\..\..\common\third-party\glfw\CMakeLists.txt ..\..\..\common\third-party\glfw\cmake_uninstall.cmake.in ..\..\..\common\third-party\glfw\src\CMakeLists.txt ..\..\..\common\third-party\glfw\src\glfw3.pc.in ..\..\..\common\third-party\glfw\src\glfw3Config.cmake.in ..\..\..\common\third-party\glfw\src\glfw_config.h.in ..\..\..\common\third-party\imgui\CMakeLists.txt ..\..\..\exercises\CMakeLists.txt ..\..\..\exercises\exercise_1\CMakeLists.txt ..\..\..\exercises\exercise_1_solutions\CMakeLists.txt ..\..\..\exercises\exercise_2\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_1\CMakeLists.txt ..\..\..\exercises\exercise_2\exercise_2_2_to_2_7\CMakeLists.txt ..\..\..\exercises\exercise_3\CMakeLists.txt ..\..\..\exercises\exercise_3\exercise_3\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeDependentOption.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindDoxygen.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake: phony
 
 
 #############################################
