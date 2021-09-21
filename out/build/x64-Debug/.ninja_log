@@ -1,0 +1,21 @@
+# ninja log v5
+0	320	6539411028864128	common/third-party/glfw/src/CMakeFiles/glfw.dir/input.c.obj	caa60ecf59d933d8
+8	337	6539411028954120	common/third-party/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj	d7f1e27c64219fee
+6	341	6539411029034129	common/third-party/glfw/src/CMakeFiles/glfw.dir/context.c.obj	87a8247cf6ab1281
+3	344	6539411029074126	common/third-party/glfw/src/CMakeFiles/glfw.dir/init.c.obj	e554e93d67cee36e
+10	347	6539411029104134	common/third-party/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj	f40aebd64bf286fc
+16	350	6539411029134133	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj	210c1c54491d4d1c
+12	404	6539411029784109	common/third-party/glfw/src/CMakeFiles/glfw.dir/window.c.obj	615551e2f95a006f
+14	429	6539411030014116	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj	c5c35ab6c6f7e6f5
+350	649	6539411032214124	common/third-party/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj	5b3caae65ffa4062
+341	655	6539411032184142	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj	b00a8bfb176204a6
+344	669	6539411032394132	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj	7209bbd1b9e7421d
+337	675	6539411032454153	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj	89d06bb5df6d08bb
+347	688	6539411032584127	common/third-party/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj	d20d11f64ce0c387
+405	696	6539411032714119	common/third-party/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj	332e55a8795c4c45
+429	850	6539411034244122	common/third-party/glad/CMakeFiles/glad.dir/src/glad.c.obj	3020662a05c0b07d
+850	927	6539411034594143	common/third-party/glad/glad.lib	f909da52cb86fa8c
+649	1037	6539411036114111	exercises/exercise_1/CMakeFiles/exercise_1_1_and_1_2.dir/exercise_1_1_and_1_2/main.cpp.obj	6f1e7f7f170911ad
+323	1264	6539411038392668	common/third-party/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj	94d7342ad7a17713
+1264	1345	6539411038706575	common/third-party/glfw/src/glfw3.lib	ee3e07d1d78c91bd
+1345	1805	6539411043363092	exercises/exercise_1/exercise_1_1_and_1_2.exe	34ffef4af7943857

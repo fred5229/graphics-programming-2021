@@ -176,7 +176,7 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
                           (posSize + colorSize) * (int) sizeof(float), 0);
 
 
-    int colorAttributeLocation = glGetAttribLocation(shaderProgram, "aColor");
+    int colorAttributeLocation = glGetAttribLocation(shaderPrograms[0].ID, "aColor");
 
     glEnableVertexAttribArray(colorAttributeLocation);
     glVertexAttribPointer(colorAttributeLocation, colorSize, GL_FLOAT, GL_FALSE,
@@ -195,13 +195,30 @@ void button_input_callback(GLFWwindow* window, int button, int action, int mods)
 
     // Test button press, see documentation at:
     //     https://www.glfw.org/docs/latest/input_guide.html#input_mouse_button
-    // CODE HERE
+    int state = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT);
     // If a left mouse button press was detected, call instantiateCone:
     // - Push the return value to the back of the global 'vector<SceneObject> sceneObjects'.
     // - The click position should be transformed from screen coordinates to normalized device coordinates,
     //   to obtain the offset values that describe the position of the object in the screen plane.
     // - A random value in the range [0, 1] should be used for the r, g and b variables.
-    // CODE HERE
+    if (state == GLFW_PRESS)
+    {
+        // get screen size and click coordinates
+        double xPos, yPos;
+        int xScreen, yScreen;
+        glfwGetCursorPos(window, &xPos, &yPos);
+        glfwGetWindowSize(window, &xScreen, &yScreen);
+
+        // convert from screen space to normalized display coordinates
+        float xNdc = (float)xPos / (float)xScreen * 2.0f - 1.0f;
+        float yNdc = (float)yPos / (float)yScreen * 2.0f - 1.0f;
+        yNdc = -yNdc;
+        srand((unsigned)time(NULL));
+
+        float r = (float)rand() / RAND_MAX;
+        float g = (float)rand() / RAND_MAX;
+        float b = (float)rand() / RAND_MAX;
+    }
 }
 
 // glfw: called whenever a keyboard key is pressed
