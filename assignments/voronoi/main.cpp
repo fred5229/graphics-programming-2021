@@ -141,13 +141,13 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
         float angle = i * angleInterval;
         vertexData.push_back((cos(angle) / 2) * dl);
         vertexData.push_back((sin(angle) / 2 ) * dl);
-        vertexData.push_back(-1.0f); //z index away from camera
+        vertexData.push_back(0.0f); //z index away from camera
         // vertex 3
         // advance one angle interval to find the last vertex of the triangle
         angle += angleInterval;
         vertexData.push_back((cos(angle) / 2) * dl);
         vertexData.push_back((sin(angle) / 2 ) * dl);
-        vertexData.push_back(-1.0f); //z index away from camera
+        vertexData.push_back(0.0f); //z index away from camera
     }
     // Store the number of vertices in the mesh in the scene object.
     sceneObject.vertexCount = vertexData.size();
@@ -218,7 +218,12 @@ void key_input_callback(GLFWwindow* window, int button, int other,int action, in
     // see documentation at https://www.glfw.org/docs/latest/input_guide.html#input_keyboard
     // Key 1 sets the activeShader to &shaderPrograms[0];
     //   and so on.
-    // CODE HERE
+    if (button == GLFW_KEY_1 && action == GLFW_PRESS)
+        activeShader = &shaderPrograms[0];
+    if (button == GLFW_KEY_2 && action == GLFW_PRESS)
+        activeShader = &shaderPrograms[1];
+    if (button == GLFW_KEY_3 && action == GLFW_PRESS)
+        activeShader = &shaderPrograms[2];
 }
 
 
