@@ -1,8 +1,8 @@
-# Install script for directory: D:/UNI/7. Semester/GP/graphics-programming-2021/common/third-party/glfw
+# Install script for directory: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/common/third-party/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "D:/UNI/7. Semester/GP/graphics-programming-2021/common/third-party/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/common/third-party/glfw/include/GLFW" FILES_MATCHING REGEX "/glfw3\\.h$" REGEX "/glfw3native\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES
-    "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3Config.cmake"
-    "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3ConfigVersion.cmake"
+    "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3Config.cmake"
+    "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3ConfigVersion.cmake"
     )
 endif()
 
@@ -47,7 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets.cmake"
-         "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+         "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3/glfw3Targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -56,19 +56,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/glfw3" TYPE FILE FILES "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/Export/lib/cmake/glfw3/glfw3Targets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/glfw3.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/cmake_install.cmake")
 
 endif()
 

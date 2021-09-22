@@ -17,6 +17,6 @@ void main()
     z = pos.z;
     // Set the 'gl_Position' built-in variable using a 'vec4(vec3 position you compute, 1.0)',
     // Remeber to use the 'uniform vec2' to move the vertex before you set 'gl_Position'.
-    vec3 offsetPos = new vec3(pos.xy + offset.xy, pos.z);
-    gl_Position = vec4(vec3, 1.0);
+    vec3 offsetPos = vec3(pos.xy + offset.xy, pos.z);
+    gl_Position = vec4(offsetPos, 1.0);
 }

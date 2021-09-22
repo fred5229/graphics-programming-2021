@@ -92,8 +92,13 @@ int main()
         // TODO voronoi 1.3
         // Iterate through the scene objects, for each object:
         // - bind the VAO; set the uniform variables; and draw.
-        // CODE HERE
-
+        for each (SceneObject cone in sceneObjects)
+        {
+            activeShader->setVec2("offset", glm::vec2(cone.x, cone.y));
+            activeShader->setVec3("color", glm::vec3(cone.r, cone.g, cone.b));
+            glBindVertexArray(cone.VAO);
+            glDrawArrays(GL_TRIANGLES, 0, cone.vertexCount);
+        }
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
         glfwSwapBuffers(window);
@@ -128,33 +133,21 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
     float dl = sqrt(2 * 2 + 2 * 2); //Length of diagonal window
     for (int i = 0; i < triangleCount; i++) {
         // vertex 1
-        vertexData.push_back(offsetX); //prevouisly both 0. Maybe change this later
-        vertexData.push_back(offsetY);
-        vertexData.push_back(-1.0f); //z index of center close to camera
-        // color 1
-        vertexData.push_back(r);
-        vertexData.push_back(g);
-        vertexData.push_back(b);
+        vertexData.push_back(0); //prevouisly both 0. Maybe change this later
+        vertexData.push_back(0);
+        vertexData.push_back(1.0f); //z index of center close to camera
         // vertex 2
         // current angle
         float angle = i * angleInterval;
-        vertexData.push_back((cos(angle) / 2 + offsetX) * dl);
-        vertexData.push_back((sin(angle) / 2 + offsetY) * dl);
-        vertexData.push_back(1); //z index away from camera
-        // color 2
-        vertexData.push_back(r);
-        vertexData.push_back(g);
-        vertexData.push_back(b);
+        vertexData.push_back((cos(angle) / 2) * dl);
+        vertexData.push_back((sin(angle) / 2 ) * dl);
+        vertexData.push_back(-1.0f); //z index away from camera
         // vertex 3
         // advance one angle interval to find the last vertex of the triangle
         angle += angleInterval;
-        vertexData.push_back((cos(angle) / 2 + offsetX) * dl);
-        vertexData.push_back((sin(angle) / 2 + offsetY) * dl);
-        vertexData.push_back(1); //z index away from camera
-        // color 3
-        vertexData.push_back(r);
-        vertexData.push_back(g);
-        vertexData.push_back(b);
+        vertexData.push_back((cos(angle) / 2) * dl);
+        vertexData.push_back((sin(angle) / 2 ) * dl);
+        vertexData.push_back(-1.0f); //z index away from camera
     }
     // Store the number of vertices in the mesh in the scene object.
     sceneObject.vertexCount = vertexData.size();
@@ -168,21 +161,13 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
     glBindVertexArray(VAO); // bind vertex array object
     // Set the position attribute pointers in the shader.
     int posSize = 3;
-    int colorSize = 3;
     int posAttributeLocation = glGetAttribLocation(shaderPrograms[0].ID, "pos");
 
     glEnableVertexAttribArray(posAttributeLocation);
-    glVertexAttribPointer(posAttributeLocation, posSize, GL_FLOAT, GL_FALSE,
-                          (posSize + colorSize) * (int) sizeof(float), 0);
+    glVertexAttribPointer(posAttributeLocation, posSize, GL_FLOAT, GL_FALSE, (posSize) * (int) sizeof(float), 0);
 
-
-    int colorAttributeLocation = glGetAttribLocation(shaderPrograms[0].ID, "aColor");
-
-    glEnableVertexAttribArray(colorAttributeLocation);
-    glVertexAttribPointer(colorAttributeLocation, colorSize, GL_FLOAT, GL_FALSE,
-                          (posSize + colorSize) * (int) sizeof(float), (void*) (posSize * sizeof(float)));
     // Store the VAO handle in the scene object.
-    // CODE HERE
+    sceneObject.VAO = VAO;
 
     // 'return' the scene object for the cone instance you just created.
     return sceneObject;
