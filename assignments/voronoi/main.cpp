@@ -133,21 +133,21 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
     float dl = sqrt(2 * 2 + 2 * 2); //Length of diagonal window
     for (int i = 0; i < triangleCount; i++) {
         // vertex 1
-        vertexData.push_back(0); //prevouisly both 0. Maybe change this later
         vertexData.push_back(0);
-        vertexData.push_back(1.0f); //z index of center close to camera
+        vertexData.push_back(0);
+        vertexData.push_back(1.0f);
         // vertex 2
         // current angle
         float angle = i * angleInterval;
         vertexData.push_back((cos(angle) / 2) * dl);
         vertexData.push_back((sin(angle) / 2 ) * dl);
-        vertexData.push_back(0.0f); //z index away from camera
+        vertexData.push_back(0.0f);
         // vertex 3
         // advance one angle interval to find the last vertex of the triangle
         angle += angleInterval;
         vertexData.push_back((cos(angle) / 2) * dl);
         vertexData.push_back((sin(angle) / 2 ) * dl);
-        vertexData.push_back(0.0f); //z index away from camera
+        vertexData.push_back(0.0f);
     }
     // Store the number of vertices in the mesh in the scene object.
     sceneObject.vertexCount = vertexData.size();
@@ -156,9 +156,9 @@ SceneObject instantiateCone(float r, float g, float b, float offsetX, float offs
     // Bind and set the VAO and VBO (and optionally a EBO) in the correct order.
     glGenBuffers(1, &VBO); // create the VBO on OpenGL and get a handle to it
     glBindBuffer(GL_ARRAY_BUFFER, VBO); // bind the VBO
-    glBufferData(GL_ARRAY_BUFFER, vertexData.size() * sizeof(GLfloat), &vertexData[0], GL_STATIC_DRAW); // set the content of the VBO (type, size, pointer to start, and how it is used)
-    glGenVertexArrays(1, &VAO); // create a vertex array object (VAO) on OpenGL and save a handle to it
-    glBindVertexArray(VAO); // bind vertex array object
+    glBufferData(GL_ARRAY_BUFFER, vertexData.size() * sizeof(GLfloat), &vertexData[0], GL_STATIC_DRAW);
+    glGenVertexArrays(1, &VAO);
+    glBindVertexArray(VAO);
     // Set the position attribute pointers in the shader.
     int posSize = 3;
     int posAttributeLocation = glGetAttribLocation(shaderPrograms[0].ID, "pos");
@@ -198,7 +198,6 @@ void button_input_callback(GLFWwindow* window, int button, int action, int mods)
         float xNdc = (float)xPos / (float)xScreen * 2.0f - 1.0f;
         float yNdc = (float)yPos / (float)yScreen * 2.0f - 1.0f;
         yNdc = -yNdc;
-        srand((unsigned)time(NULL));
 
         float r = (float)rand() / RAND_MAX;
         float g = (float)rand() / RAND_MAX;
