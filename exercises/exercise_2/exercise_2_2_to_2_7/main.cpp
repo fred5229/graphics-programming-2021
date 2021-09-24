@@ -148,7 +148,7 @@ void bindAttributes(){
 
     GLuint tobLocation = glGetAttribLocation(shaderProgram->ID, "tob");
     glEnableVertexAttribArray(tobLocation);
-    glVertexAttribPointer(tobLocation, tobSize, GL_FLOAT, GL_FALSE, tobSize * sizeOfFloat, (void*)((velSize + tobSize) * sizeOfFloat));
+    glVertexAttribPointer(tobLocation, tobSize, GL_FLOAT, GL_FALSE, particleSize * sizeOfFloat, (void*)((velSize + posSize) * sizeOfFloat));
 } 
 
 void createVertexBufferObject(){
