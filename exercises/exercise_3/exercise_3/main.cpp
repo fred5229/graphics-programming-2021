@@ -156,11 +156,32 @@ void drawPlane(){
     //  you will need to transform the pose of the pieces of the plane by manipulating glm matrices and uploading a
     //  uniform mat4 model matrix to the vertex shader
 
+    glm::mat4 id = glm::mat4(1.0f);
+    shaderProgram->setMat4("model", id);
+
     // body
     drawSceneObject(planeBody);
     // right wing
     drawSceneObject(planeWing);
-
+    // left wing
+    glm::mat4 rightWing = glm::scale(id, glm::vec3(-1.0, 1.0, 1.0));
+    shaderProgram->setMat4("model", rightWing);
+    drawSceneObject(planeWing);
+    // right tail
+    glm::mat4 rightTail = glm::scale(glm::translate(id, glm::vec3(0, -0.5, 0)), glm::vec3(0.5, 0.5, 0.5));
+    shaderProgram->setMat4("model", rightTail);
+    drawSceneObject(planeWing);
+    // left tail
+    glm::mat4 leftTail = glm::scale(rightTail, glm::vec3(-1.0, 1.0, 1.0));
+    shaderProgram->setMat4("model", leftTail);
+    drawSceneObject(planeWing);
+    // propeller
+    glm::mat4 propeller = glm::rotate(id, glm::radians(90.0f), glm::vec3(1.0, 0.0, 0.0));
+    propeller = glm::scale(propeller, glm::vec3(0.5, 0.5, 0.5));
+    // why???
+    propeller = glm::translate(propeller, glm::vec3(0, 0, -1.0));
+    shaderProgram->setMat4("model", propeller);
+    drawSceneObject(planePropeller);
 }
 
 void drawSceneObject(SceneObject obj){
@@ -184,6 +205,11 @@ void setup(){
                                       airplane.planeWingIndices);
     planeWing.vertexCount = airplane.planeWingIndices.size();
 
+    // propeller mesh object
+    planePropeller.VAO = createVertexArray(airplane.planePropellerVertices,
+                                           airplane.planePropellerColors,
+                                           airplane.planePropellerIndices);
+    planePropeller.vertexCount = airplane.planePropellerIndices.size();
 }
 
 
