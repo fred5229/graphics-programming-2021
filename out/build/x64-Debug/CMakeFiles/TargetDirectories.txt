@@ -1,149 +1,222 @@
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/uninstall.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/glfw.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/glad.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/imgui.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/assimp.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_1_and_1_2.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_4.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_3.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_5.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_6.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_7.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_8.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_9.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_1_and_1_2_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_4_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_3_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_5_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_6_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_7_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_8_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/exercise_2_1.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/exercise_2_2_to_2_7.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/exercise_2_1_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/exercise_2_2_to_2_7_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/exercise_3.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/exercise_3_sol.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/exercise_4_1_and_4_2.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/exercise_4_3_and_4_4.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/list_install_components.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/assignment_voronoi.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/install/local.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/install.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/edit_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/rebuild_cache.dir
-C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/uninstall.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/glfw.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/src/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/glad.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/imgui.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/assimp.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_1_and_1_2.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_4.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_3.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_5.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_6.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_7.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_8.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/exercise_1_9.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_1_and_1_2_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_4_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_3_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_5_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_6_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_7_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/exercise_1_8_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/exercise_2_1.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_1/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/exercise_2_2_to_2_7.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/exercise_2_2_to_2_7/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/exercise_2_1_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_1_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/exercise_2_2_to_2_7_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/exercise_2_2_to_2_7_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/exercise_3.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/exercise_3/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/exercise_3_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/exercise_4_1_and_4_2.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_1_and_4_2/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/exercise_4_3_and_4_4.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/exercise_4_3_and_4_4/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/exercise_4_1_and_4_2_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_1_and_4_2_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/exercise_4_3_and_4_4_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/exercise_4_3_and_4_4_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/exercise_5_1.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_1/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/exercise_5_2.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/exercise_5_2/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/exercise_5_1_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_1_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/exercise_5_2_sol.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/exercise_5_2_sol/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/exercise_6_1.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/exercise_6_1/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/assignment_voronoi.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/voronoi/CMakeFiles/list_install_components.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/weather_effects.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/install/local.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/install.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/edit_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/rebuild_cache.dir
+D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/weather_effects/CMakeFiles/list_install_components.dir
