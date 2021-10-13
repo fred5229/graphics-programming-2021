@@ -1,7 +1,7 @@
-prefix=D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug
+prefix=C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug
 exec_prefix=${prefix}
-includedir=D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug/include
-libdir=D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug/lib
+includedir=C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug/include
+libdir=C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

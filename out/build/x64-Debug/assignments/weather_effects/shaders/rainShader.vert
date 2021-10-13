@@ -13,5 +13,11 @@ void main()
 
 	position += cameraPosition + forwardOffset - boxSize/2;
 
-	gl_Position = model * vec4(pos, 0);
+	gl_Position = model * vec4(position, 1);
+
+	// Rain
+	//gl_PointSize = 1;
+
+	// Snow
+	gl_PointSize = 3;
 }

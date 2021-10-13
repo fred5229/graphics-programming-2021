@@ -29,6 +29,7 @@ struct ParticlesObject{
     void drawSceneObject() const {
         glBindVertexArray(VAO);
         glDrawArrays(GL_POINTS, 0, vertexBufferSize);
+        //glDrawElements(GL_POINTS, vertexBufferSize, GL_UNSIGNED_INT, 0);
     }
 };
 
@@ -71,9 +72,15 @@ glm::vec3 camPosition(.0f, 1.6f, 0.0f);
 float linearSpeed = 0.15f, rotationGain = 30.0f;
 
 // Particle stuff
-unsigned int numberOfParticles = 1000;
-unsigned int particleVAO, particleVBO;
-unsigned int boxSize = 2;
+const unsigned int numberOfParticles = 10000;
+const int boxSize = 30;
+float gravityOffset = 0;
+// Rain
+const float deltaGravity = 0.1;
+// Snow
+//const float deltaGravity = 0.05;
+float windOffset = 0;
+const float windDelta = 0.03;
 
 int main()
 {
@@ -195,7 +202,9 @@ void drawObjects(){
 
 void drawRain(glm::mat4 model) {
 
-    glm::vec3 offsets = glm::vec3(currentTime, 0, 0);
+    gravityOffset += deltaGravity;
+    windOffset += windDelta;
+    glm::vec3 offsets = glm::vec3(windOffset, -gravityOffset, 0);
     offsets -= camPosition + camForward + glm::vec3(boxSize/2);
     offsets = glm::mod(offsets, glm::vec3(boxSize));
 
@@ -204,7 +213,7 @@ void drawRain(glm::mat4 model) {
     particleShaderProgram->setVec3("cameraPosition", camPosition);
     particleShaderProgram->setVec3("forwardOffset", camForward);
     particleShaderProgram->setMat4("model", model);
-
+    
     particles.drawSceneObject();
 }
 
@@ -223,20 +232,20 @@ unsigned int createParticleVertexArray() {
     glBindVertexArray(VAO);
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
 
-    std::vector<float> particleVertexData;
-    for (size_t i = 0; i < numberOfParticles; i++)
+    std::vector<float> particleVertexData(numberOfParticles * 3);
+    for (size_t i = 0; i < particleVertexData.size(); i += 3)
     {
         float x = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / boxSize));
         float y = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / boxSize));
         float z = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX / boxSize));
-        particleVertexData.push_back(x);
-        particleVertexData.push_back(y);
-        particleVertexData.push_back(z);
+        particleVertexData[i] = x;
+        particleVertexData[i + 1] = y;
+        particleVertexData[i + 2] = z;
     }
 
-    particles.vertexBufferSize = particleVertexData.size();
+    particles.vertexBufferSize = numberOfParticles;
 
-    glBufferData(GL_ARRAY_BUFFER, sizeof(particleVertexData), &particleVertexData, GL_DYNAMIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, numberOfParticles * 3 * 4, &particleVertexData[0], GL_DYNAMIC_DRAW);
 
     int posAttributeLocation = glGetAttribLocation(particleShaderProgram->ID, "pos");
     glEnableVertexAttribArray(posAttributeLocation);
@@ -260,7 +269,6 @@ void setup(){
 
     particles.VAO = createParticleVertexArray();
 }
-
 
 unsigned int createVertexArray(const std::vector<float> &positions, const std::vector<float> &colors, const std::vector<unsigned int> &indices){
     unsigned int VAO;

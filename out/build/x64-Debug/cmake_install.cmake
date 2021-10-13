@@ -1,8 +1,8 @@
-# Install script for directory: D:/UNI/7. Semester/GP/graphics-programming-2021
+# Install script for directory: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/cmake_install.cmake")
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/cmake_install.cmake")
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/cmake_install.cmake")
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/cmake_install.cmake")
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/cmake_install.cmake")
-  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/assignments/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glfw/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/glad/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/imgui/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/common/third-party/assimp/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/cmake_install.cmake")
+  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/assignments/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
