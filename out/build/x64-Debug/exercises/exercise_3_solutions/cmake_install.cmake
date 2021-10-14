@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises/exercise_3_solutions
+# Install script for directory: D:/UNI/7. Semester/GP/graphics-programming-2021/exercises/exercise_3_solutions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/exercise_3_sol/cmake_install.cmake")
 
 endif()
 

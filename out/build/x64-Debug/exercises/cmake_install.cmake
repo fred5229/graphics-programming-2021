@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/exercises
+# Install script for directory: D:/UNI/7. Semester/GP/graphics-programming-2021/exercises
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/UNI/7. Semester/GP/graphics-programming-2021/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/cmake_install.cmake")
-  include("C:/Users/frede/Documents/UNI/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_1_solutions/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_2_solutions/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_3_solutions/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_4_solutions/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_5_solutions/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/exercise_6/cmake_install.cmake")
+  include("D:/UNI/7. Semester/GP/graphics-programming-2021/out/build/x64-Debug/exercises/out/cmake_install.cmake")
 
 endif()
 
